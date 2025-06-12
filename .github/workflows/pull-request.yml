@@ -22,6 +22,8 @@ jobs:
         uv sync
     - name: Lint and format with Ruff
       run: |
+        # add ruff
+        uv add ruff
         # Check linting errors
         uv run ruff check .
         # Check formatting
