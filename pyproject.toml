@@ -22,5 +22,6 @@ packages = ["direct_api", "gcp_powered"]
 
 [dependency-groups]
 dev = [
+    "pytest>=8.4.0",
     "ruff>=0.11.13",
 ]

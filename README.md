@@ -39,7 +39,6 @@ This repository demonstrates how to leverage Google's Gemini AI capabilities to 
 ## Features
 
 - 🤖 AI agent examples with Gemini
-- 📄 Document analysis and processing tools
 - 🔄 Seamless integration with Google's Gemini API
 - 🧩 Sample applications showcasing multimodal capabilities
 - 🛠️ Utility functions for common Gemini operations
@@ -58,21 +57,22 @@ from made_with_gemini import some_module
 made_with_gemini/
 ├── .github/               # GitHub specific files (workflows, issue templates)
 ├── direct_api/            # Direct API examples
-│   ├── text_based/        # Text-based examples
 │   ├── image_based/       # Image-based examples
+│   ├── text_based/        # Text-based examples
 │   └── video_based/       # Video-based examples
-├── docs/                  # Documentation
-├── examples/              # Example applications
 ├── gcp_powered/           # GCP-powered examples
-│   ├── text_based/        # Text-based examples
 │   ├── image_based/       # Image-based examples
+│   │   └── renovation_helper/ # Renovation helper application
+│   ├── text_based/        # Text-based examples
 │   └── video_based/       # Video-based examples
-├── made_with_gemini/      # Main package
-│   ├── agents/            # AI agent implementations
-│   ├── tools/             # Tool implementations
-│   └── utils/             # Utility functions
 ├── tests/                 # Unit and integration tests
-└── main.py                # Entry point for the application
+├── CODE_OF_CONDUCT.md     # Code of conduct
+├── CONTRIBUTING.md        # Contributing guidelines
+├── LICENSE                # MIT License
+├── README.md              # This file
+├── main.py                # Entry point for the application
+├── pyproject.toml         # Project configuration
+└── uv.lock                # UV package manager lock file
 ```
 
 ## Contributing
@@ -80,8 +80,6 @@ made_with_gemini/
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
 ## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 

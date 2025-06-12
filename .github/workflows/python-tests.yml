@@ -28,12 +28,10 @@ jobs:
         uv sync
     - name: Lint with Ruff
       run: |
-        uv pip install ruff
         # Run linting
-        ruff check .
+        uv run ruff check .
         # Check formatting
         ruff format --check .
     - name: Test with pytest
       run: |
-        uv pip install pytest
-        pytest
+        uv run pytest
