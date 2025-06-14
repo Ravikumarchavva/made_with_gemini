@@ -7,6 +7,7 @@ import logging
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
 
+
 def store_markdown(markdown_text: str, file_name: str, directory: str = ".") -> str:
     """
     Saves markdown text to a .md file.
@@ -34,8 +35,6 @@ def store_markdown(markdown_text: str, file_name: str, directory: str = ".") -> 
     except Exception as e:
         logger.error(f"Error saving markdown file: {e}")
         raise
-
-
 
 
 root_agent = Agent(
