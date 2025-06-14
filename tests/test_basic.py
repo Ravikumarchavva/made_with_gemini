@@ -2,5 +2,5 @@
 
 def test_import():
     """Test that the package can be imported."""
-    from gcp_powered.image_based import renovation_helper
-    assert renovation_helper is not None
+    from direct_api import renovation_agent
+    assert renovation_agent is not None
