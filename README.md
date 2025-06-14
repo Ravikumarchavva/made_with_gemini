@@ -55,16 +55,12 @@ from made_with_gemini import some_module
 
 ```
 made_with_gemini/
-├── .github/               # GitHub specific files (workflows, issue templates)
 ├── direct_api/            # Direct API examples
-│   ├── image_based/       # Image-based examples
-│   ├── text_based/        # Text-based examples
-│   └── video_based/       # Video-based examples
+│   └── renovation_agent/  # Renovation agent application
+│       ├── agent.py       # Agent implementation
+│       ├── rennovate.md   # Sample renovation plan
+│       └── README.md      # Renovation agent documentation
 ├── gcp_powered/           # GCP-powered examples
-│   ├── image_based/       # Image-based examples
-│   │   └── renovation_helper/ # Renovation helper application
-│   ├── text_based/        # Text-based examples
-│   └── video_based/       # Video-based examples
 ├── tests/                 # Unit and integration tests
 ├── CODE_OF_CONDUCT.md     # Code of conduct
 ├── CONTRIBUTING.md        # Contributing guidelines

@@ -4,10 +4,8 @@ This directory contains examples that leverage Google Cloud Platform (GCP) servi
 
 ## Structure
 
-- `image_based/` - Examples that work with image processing using GCP services
-  - `renovation_helper/` - A renovation helper application that uses Gemini to analyze room images
-- `text_based/` - Examples that work with text processing using GCP services
-- `video_based/` - Examples that work with video processing using GCP services
+This directory will contain examples that leverage Google Cloud Platform (GCP) services along with Gemini AI.
+Examples will be added soon.
 
 ## Getting Started
 

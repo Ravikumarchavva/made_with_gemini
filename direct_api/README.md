@@ -4,9 +4,7 @@ This directory contains examples that use Google's Gemini API directly, without 
 
 ## Structure
 
-- `image_based/` - Examples that work with image inputs
-- `text_based/` - Examples that work with text inputs
-- `video_based/` - Examples that work with video inputs
+- `renovation_agent/` - A renovation agent that analyzes room images and provides renovation recommendations
 
 ## Getting Started
 
