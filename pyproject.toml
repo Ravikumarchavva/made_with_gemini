@@ -18,6 +18,7 @@ dependencies = [
     "google-genai>=1.20.0",
     "markdown2>=2.5.3",
     "reportlab>=4.4.1",
+    "toolbox-core>=0.2.1",
 ]
 
 [tool.setuptools]
